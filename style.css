@@ -41,6 +41,11 @@ body * {
   font-family: "inter", sans-serif;
   color: var(--text-color);
 }
+
+html, body {
+  overflow-x: hidden;
+}
+
 #container {
   width: 100%;
   max-width: 588px;
